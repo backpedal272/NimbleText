@@ -23,6 +23,10 @@ Sandboxed and offline: no network access, no tracking, no account. The app only 
 
 - macOS 15 Sequoia or later
 
+## Install
+
+[Download Nimble Text on the Mac App Store](https://apps.apple.com/app/nimble-text/id6785216951). It's free. More on [nimbleapps.ch](https://nimbleapps.ch/nimbletext/index.html).
+
 ## Build from source
 
 You need Xcode.
