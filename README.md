@@ -1,14 +1,14 @@
 # Nimble Text
 
-**A minimal macOS plain-text editor that round-trips the clipboard.**
+**Rich text in, plain text out. A minimal macOS editor that round-trips the clipboard.**
 
-Copy something, open Nimble Text, and it's already in the editor. Edit it, close the window, and the edited text is back on the clipboard, ready to paste.
+Copied something from a web page, a PDF or an email that pastes with its fonts, colors and links? Open Nimble Text: the formatting is gone and only the words are left. Edit them if you like, close the window, and the clean text is back on the clipboard, ready to paste.
 
 > Free and open source (GPL-3.0). Part of [Nimble Apps](https://nimbleapps.ch).
 
 ## How it works
 
-- **On launch** the editor is filled with the text on the clipboard, with the cursor at the end. If the clipboard holds no text, it starts empty.
+- **On launch** the editor is filled with the clipboard's text as plain text (fonts, colors and links are dropped), with the cursor at the end. If the clipboard holds no text, it starts empty.
 - **On close (⌘W) or quit (⌘Q)** the whole document is copied back to the clipboard. An empty document leaves the clipboard untouched.
 - **Copy All (⇧⌘C)** copies the document without closing.
 - **Save (⌘S) / Save As (⇧⌘S)** writes UTF-8 plain text with any extension you type (`.txt`, `.md`, `.csv`, `.json`…).
